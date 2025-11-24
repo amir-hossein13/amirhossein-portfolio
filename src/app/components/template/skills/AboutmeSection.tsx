@@ -5,7 +5,7 @@ function AboutmeSection() {
           <h2 className="text-4xl font-semibold">About Me</h2>
 
           <p className="text-lg leading-relaxed max-w-2xl">
-            Hi, I'm Amirhossein — a frontend developer from Iran, passionate
+            Hi, im Amirhossein — a frontend developer from Iran, passionate
             about building clean, fast, and user-friendly web experiences. I
             enjoy turning ideas into real interfaces using modern web
             technologies.
