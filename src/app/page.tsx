@@ -20,7 +20,9 @@ function HomePage() {
           <PortfolioSection />
         </Container>
       </section>
-      <ContactMe/>
+      <Container>
+        <ContactMe />
+      </Container>
     </>
   );
 }
