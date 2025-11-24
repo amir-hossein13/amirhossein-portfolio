@@ -1,0 +1,22 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "projects",
+    "contact": "Contact",
+    "blog": "Blog"
+  },
+  "hero": {
+    "name": "amirhossein",
+    "title": "frontend developer 17 years old, Qom – IR"
+  },
+  "about-me": {
+    "title": "About Me",
+    "desc1": "Hi, im Amirhossein — a frontend developer from Iran, passionate about building clean, fast, and user-friendly web experiences. I enjoy turning ideas into real interfaces using modern web technologies.",
+    "desc2": "I focus on writing efficient code, improving UI interactions, and always learning new tools to grow as a developer. I love collaborating with creative people and bringing high-quality projects to life."
+  },
+  "skills": {
+    "title": "skills"
+  }
+  
+}

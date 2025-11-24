@@ -1,7 +1,7 @@
 function ContactMe() {
   return (
     <section className="py-20">
-      <div className="flex flex-col items-center justify-center gap-5">
+      <div className="flex flex-col items-center text-center justify-center gap-5">
         {" "}
         <h2 className="text-4xl font-semibold">Contacts</h2>
         <h4 className="text-xl font-medium">
