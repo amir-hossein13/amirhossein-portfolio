@@ -1,11 +1,12 @@
 "use client";
 import { Menu, X } from "lucide-react";
+import { useTranslations } from "next-intl";
 import { useState } from "react";
 
 function Header() {
   const [active, setActive] = useState("home");
   const [open, setOpen] = useState(false);
-
+const t = useTranslations('header')
   const links = ["home", "about", "skills", "projects", "contact"];
 
   return (
@@ -35,7 +36,7 @@ function Header() {
                 });
               }}
             >
-              {item}
+              {t(`nav.${item}`)}
             </li>
           ))}
         </ul>

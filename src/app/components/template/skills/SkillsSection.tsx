@@ -1,3 +1,4 @@
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 
 const skills = [
@@ -28,9 +29,10 @@ const skills = [
 ];
 
 function SkillsSection() {
+  const t = useTranslations('skills')
   return (
     <div className="w-full mt-20" id="skills">
-      <h2 className="text-4xl font-semibold text-center mb-14">Skills</h2>
+      <h2 className="text-4xl font-semibold text-center mb-14">{t("title")}</h2>
 
       {/* Dynamic Grid */}
       <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-10 place-items-center">

@@ -1,0 +1,59 @@
+{
+  "header": {
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "skills": "skills",
+      "projects": "projects",
+      "contact": "Contact",
+      "blog": "Blog"
+    }
+  },
+
+  "hero": {
+    "name": "amirhossein",
+    "title": "frontend developer 17 years old, Qom – IR"
+  },
+  "about-me": {
+    "title": "About Me",
+    "desc1": "Hi, im Amirhossein — a frontend developer from Iran, passionate about building clean, fast, and user-friendly web experiences. I enjoy turning ideas into real interfaces using modern web technologies.",
+    "desc2": "I focus on writing efficient code, improving UI interactions, and always learning new tools to grow as a developer. I love collaborating with creative people and bringing high-quality projects to life."
+  },
+  "skills": {
+    "title": "skills"
+  },
+  "projects": {
+    "title": "Portfolio",
+    "learned": "What I learned",
+    "project": {
+      "idea-plus": {
+        "title": "Idea Plus",
+        "description": "A real-world project built for Webino Startup. Idea Plus is a platform focused on freelancers and Instagram-related digital packages. I worked on improving the UI and performance while ensuring clean and scalable code.",
+        "solved": "Optimizing website performance, designing a clean and modern UI, and managing APIs in real-world production environments."
+      },
+
+      "Baghban": {
+        "title": "Baghban",
+        "description": "A cosmetics and hygiene product store. This was my first collaboration with the Webino team, where I contributed to building the user interface and gained valuable experience working with another frontend developer.",
+        "solved": "Using Next.js in a real project, understanding layouts and structure in Next.js, and collaborating with other frontend developers."
+      },
+
+      "Bilito": {
+        "title": "Bilito",
+        "description": "An open-source flight ticket project built to practice handling complex data and larger APIs. The project is still in progress but has helped me improve my understanding of scalable architecture and clean project structure.",
+        "solved": "Handling large and complex APIs, structuring scalable frontend projects, and working on long-term open-source style applications."
+      },
+
+      "Sportiva": {
+        "title": "Sportiva",
+        "description": "My first independent project built with React. It includes authentication, CMS usage, and API handling. I created it as a way to evaluate my skills and prepare myself for bigger real-world applications.",
+        "solved": "Handling APIs in React, working with authentication and CMS, improving UI quality, and building more polished and production-ready applications."
+      }
+    }
+  },
+  "contact": {
+    "title": "contact",
+    "message": "Want to know more or just chat? You are welcome!",
+    "button": "Send Message"
+  }
+}

@@ -1,9 +1,9 @@
-import Container from "./components/ui/Container";
-import HeroSection from "./components/template/heroSection/HeroSection";
-import SkillsSection from "./components/template/skills/SkillsSection";
-import AboutmeSection from "./components/template/skills/AboutmeSection";
-import PortfolioSection from "./components/template/PortfolioSection";
-import ContactMe from "./components/template/ContanctMe/ContactMe";
+import Container from "../components/ui/Container";
+import HeroSection from "../components/template/heroSection/HeroSection";
+import SkillsSection from "../components/template/skills/SkillsSection";
+import AboutmeSection from "../components/template/skills/AboutmeSection";
+import PortfolioSection from "../components/template/PortfolioSection";
+import ContactMe from "../components/template/ContanctMe/ContactMe";
 
 function HomePage() {
   return (
