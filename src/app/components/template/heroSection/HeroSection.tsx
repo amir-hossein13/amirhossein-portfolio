@@ -1,6 +1,6 @@
 function HeroSection() {
   return (
-    <section className="mt-10">
+    <section className="mt-10" id="home">
       <div className="flex items-center justify-between">
         <h1 className="text-4xl font-semibold leading-tight">
           amir <br /> hossein

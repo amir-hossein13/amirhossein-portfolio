@@ -45,7 +45,7 @@ const projects = [
 
 function PortfolioSection() {
   return (
-    <div>
+    <div id="projects">
       <h2 className="text-4xl font-semibold text-center mb-14">Portfolio</h2>
 
       <div className="flex flex-col gap-20 items-center">

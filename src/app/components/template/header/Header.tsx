@@ -6,10 +6,10 @@ function Header() {
   const [active, setActive] = useState("home");
   const [open, setOpen] = useState(false);
 
-  const links = ["home", "about", "projects", "contact", "blog"];
+  const links = ["home", "about", "skills", "projects", "contact"];
 
   return (
-    <header className="mt-5">
+    <header className="mt-5 ">
       <div className="flex items-center justify-between">
         <h1 className="text-2xl font-bold">Portfolio</h1>
 
@@ -26,7 +26,14 @@ function Header() {
                   ? "text-primary-black font-semibold"
                   : "text-primary-gray"
               }`}
-              onClick={() => setActive(item)}
+              onClick={() => {
+                setActive(item);
+                setOpen(false);
+                document.getElementById(item)?.scrollIntoView({
+                  behavior: "smooth",
+                  block: "start",
+                });
+              }}
             >
               {item}
             </li>
@@ -49,7 +56,7 @@ function Header() {
             }`}
             onClick={() => {
               setActive(item);
-              setOpen(false); 
+              setOpen(false);
             }}
           >
             {item}

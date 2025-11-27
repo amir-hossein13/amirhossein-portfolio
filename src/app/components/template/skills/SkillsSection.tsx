@@ -29,7 +29,7 @@ const skills = [
 
 function SkillsSection() {
   return (
-    <div className="w-full mt-20">
+    <div className="w-full mt-20" id="skills">
       <h2 className="text-4xl font-semibold text-center mb-14">Skills</h2>
 
       {/* Dynamic Grid */}

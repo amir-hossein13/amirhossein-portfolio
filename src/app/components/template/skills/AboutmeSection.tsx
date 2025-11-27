@@ -1,6 +1,6 @@
 function AboutmeSection() {
     return (
-      <section className="bg-[#F6F6F6] py-20 w-full mt-10">
+      <section className="bg-[#F6F6F6] py-20 w-full mt-10" id="about">
         <div className="flex flex-col justify-center gap-10 items-center text-center px-4">
           <h2 className="text-4xl font-semibold">About Me</h2>
 
