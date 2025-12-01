@@ -11,8 +11,10 @@
   },
 
   "hero": {
-    "name": "amirhossein",
-    "title": "frontend developer 17 years old, Qom – IR"
+    "name": "amir",
+    "name2": "hossein",
+    "title": "frontend developer ",
+    "title2": ", Next.js & react.js "
   },
   "about-me": {
     "title": "About Me",

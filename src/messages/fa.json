@@ -9,10 +9,11 @@
       "blog": "بلاگ"
     }
   },
-
   "hero": {
-    "name": "امیرحسین",
-    "title": "توسعه‌دهنده فرانت‌اند، ۱۷ ساله از قم – ایران"
+    "name": "امیر",
+    "name2": "حسین",
+    "title": "frontend developer ",
+    "title2": ", Next.js & react.js "
   },
   "about-me": {
     "title": "درباره من",

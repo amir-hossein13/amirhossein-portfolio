@@ -1,19 +1,21 @@
+import { useTranslations } from "next-intl";
+import LangSwitcher from "../../ui/LangSwitcher";
+
 function HeroSection() {
+  const t = useTranslations("hero");
   return (
     <section className="mt-10" id="home">
-      <div className="flex items-center justify-between">
+      <div className="flex flex-wrap items-center justify-between gap-4">
         <h1 className="text-4xl font-semibold leading-tight">
-          amir <br /> hossein
+          {t("name")} <br /> {t("name2")}
         </h1>
 
-        <h2 className="text-xl font-medium  leading-relaxed">
-          frontend developer <br />
-          17 years old, Qom – IR
+        <h2 className="text-xl font-medium leading-relaxed wrap-break-words whitespace-normal">
+          {t("title")} <br />
+          {t("title2")}
         </h2>
 
-        <div className="flex items-center">
-          <p className="rotate-90 text-sm font-medium tracking-wide">EN | FA</p>
-        </div>
+        <LangSwitcher />
       </div>
       <div className="relative mt-5 w-full sm:h-64 border">
         {/* <Image src="" fill alt="amirhossein" /> */}
