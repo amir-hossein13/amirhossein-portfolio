@@ -10,7 +10,7 @@ export default function LangSwitcher() {
   // Detect current language based on URL
   const currentLang = pathname.startsWith("/fa") ? "fa" : "en";
 
-  const changeLang = (lang) => {
+  const changeLang = (lang:string) => {
     const segments = pathname.split("/");
     segments[1] = lang; // replace language folder in URL
     const newPath = segments.join("/");
