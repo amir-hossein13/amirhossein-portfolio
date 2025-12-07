@@ -10,37 +10,33 @@ export default function LangSwitcher() {
   // Detect current language based on URL
   const currentLang = pathname.startsWith("/fa") ? "fa" : "en";
 
-  const changeLang = (lang:string) => {
+  const changeLang = (lang: string) => {
     const segments = pathname.split("/");
-    segments[1] = lang; // replace language folder in URL
+    segments[1] = lang;
     const newPath = segments.join("/");
     router.push(newPath);
   };
 
-  // Set RTL or LTR automatically
   useEffect(() => {
     document.documentElement.dir = currentLang === "fa" ? "rtl" : "ltr";
   }, [currentLang]);
 
   return (
-    <div className="flex flex-col items-center gap-2">
-      {/* EN */}
+    <div className="flex flex-row items-center gap-2 rotate-0 sm:rotate-90">
       <button
         onClick={() => changeLang("en")}
-        className={`text-sm tracking-wide rotate-90 cursor-pointer ${
+        className={`text-sm tracking-wide  cursor-pointer ${
           currentLang === "en" ? "font-bold" : "font-medium opacity-60"
         }`}
       >
         EN
       </button>
 
-      {/* Divider */}
-      <span className="rotate-90 opacity-60">|</span>
+      <span className="rotate-180 opacity-60">|</span>
 
-      {/* FA */}
       <button
         onClick={() => changeLang("fa")}
-        className={`text-sm tracking-wide rotate-90 cursor-pointer ${
+        className={`text-md tracking-wide  cursor-pointer ${
           currentLang === "fa" ? "font-bold" : "font-medium opacity-60"
         }`}
       >
